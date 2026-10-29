@@ -2,9 +2,9 @@
 GitHub setup:
 Place README.md in the repository root.
 Place the three figures in the images folder:
-images/images1.png
-images/images2.png
-images/images3.jpg
+images/image1.png
+images/image2.png
+images/image3.jpg
 Keep these filenames unchanged, or update the relative links below.
 -->
 
@@ -39,7 +39,7 @@ Keep these filenames unchanged, or update the relative links below.
 - **Effective with fewer annotations:** highest Dice and JC among evaluated methods on all four datasets at 25%, 50%, and 75% training annotation ratios.
 
 <p align="center">
-  <img src="./images/images2.png" alt="SPAN-Net architecture: cross-modal prior generation, prior-guided semantic fusion, and prior-modulated edge attention" width="100%">
+  <img src="./images/image2.png" alt="SPAN-Net architecture: cross-modal prior generation, prior-guided semantic fusion, and prior-modulated edge attention" width="100%">
 </p>
 <p align="center"><sub>Spatial priors connect text-guided localization, multi-scale fusion, and boundary refinement.</sub></p>
 
@@ -52,7 +52,7 @@ Keep these filenames unchanged, or update the relative links below.
 | **PMEA** · Prior-Modulated Edge Attention Decoder | Uses seed–prior consistency and boundary potential to refine decoder features. |
 
 <p align="center">
-  <img src="./images/images3.jpg" alt="Spatial prior evolution through text-adaptive diffusion and bistable reaction" width="100%">
+  <img src="./images/image3.jpg" alt="Spatial prior evolution through text-adaptive diffusion and bistable reaction" width="100%">
 </p>
 <p align="center"><sub>Text-adaptive diffusion propagates spatial evidence; bistable reaction sharpens foreground–background separation.</sub></p>
 
@@ -60,7 +60,7 @@ Keep these filenames unchanged, or update the relative links below.
 <summary><b>Motivation and comparison</b></summary>
 
 <p align="center">
-  <img src="./images/images1.png" alt="Motivation for explicit spatial prior modeling and comparison with representative methods" width="100%">
+  <img src="./images/image1.png" alt="Motivation for explicit spatial prior modeling and comparison with representative methods" width="100%">
 </p>
 
 Compact textual cues can provide limited spatial guidance when aligned with dense visual features. SPAN-Net makes this guidance explicit through spatial prior generation, evolution, and injection.
