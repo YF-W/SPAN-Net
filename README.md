@@ -1,9 +1,10 @@
 <!--
-GitHub setup: put this README.md and the four supplied files in the repository root:
-english.pdf
-image1.png
-image2.png
-image3.jpg
+GitHub setup:
+Place README.md in the repository root.
+Place the three figures in the images folder:
+images/images1.png
+images/images2.png
+images/images3.jpg
 Keep these filenames unchanged, or update the relative links below.
 -->
 
@@ -20,7 +21,6 @@ Keep these filenames unchanged, or update the relative links below.
 <img src="https://img.shields.io/badge/Benchmarks-4_Datasets-B59A83?style=flat-square" alt="Four benchmark datasets">
 
 <p>
-  <a href="./english.pdf"><b>Paper</b></a> ·
   <a href="#overview"><b>Overview</b></a> ·
   <a href="#method"><b>Method</b></a> ·
   <a href="#results"><b>Results</b></a> ·
@@ -39,7 +39,7 @@ Keep these filenames unchanged, or update the relative links below.
 - **Effective with fewer annotations:** highest Dice and JC among evaluated methods on all four datasets at 25%, 50%, and 75% training annotation ratios.
 
 <p align="center">
-  <img src="./image2.png" alt="SPAN-Net architecture: cross-modal prior generation, prior-guided semantic fusion, and prior-modulated edge attention" width="100%">
+  <img src="./images/images2.png" alt="SPAN-Net architecture: cross-modal prior generation, prior-guided semantic fusion, and prior-modulated edge attention" width="100%">
 </p>
 <p align="center"><sub>Spatial priors connect text-guided localization, multi-scale fusion, and boundary refinement.</sub></p>
 
@@ -52,7 +52,7 @@ Keep these filenames unchanged, or update the relative links below.
 | **PMEA** · Prior-Modulated Edge Attention Decoder | Uses seed–prior consistency and boundary potential to refine decoder features. |
 
 <p align="center">
-  <img src="./image3.jpg" alt="Spatial prior evolution through text-adaptive diffusion and bistable reaction" width="100%">
+  <img src="./images/images3.jpg" alt="Spatial prior evolution through text-adaptive diffusion and bistable reaction" width="100%">
 </p>
 <p align="center"><sub>Text-adaptive diffusion propagates spatial evidence; bistable reaction sharpens foreground–background separation.</sub></p>
 
@@ -60,7 +60,7 @@ Keep these filenames unchanged, or update the relative links below.
 <summary><b>Motivation and comparison</b></summary>
 
 <p align="center">
-  <img src="./image1.png" alt="Motivation for explicit spatial prior modeling and comparison with representative methods" width="100%">
+  <img src="./images/images1.png" alt="Motivation for explicit spatial prior modeling and comparison with representative methods" width="100%">
 </p>
 
 Compact textual cues can provide limited spatial guidance when aligned with dense visual features. SPAN-Net makes this guidance explicit through spatial prior generation, evolution, and injection.
