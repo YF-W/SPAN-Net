@@ -56,16 +56,13 @@ Keep these filenames unchanged, or update the relative links below.
 </p>
 <p align="center"><sub>Text-adaptive diffusion propagates spatial evidence; bistable reaction sharpens foreground–background separation.</sub></p>
 
-<details>
-<summary><b>Motivation and comparison</b></summary>
+## Motivation and Comparison
 
 <p align="center">
   <img src="./images/image1.png" alt="Motivation for explicit spatial prior modeling and comparison with representative methods" width="100%">
 </p>
 
 Compact textual cues can provide limited spatial guidance when aligned with dense visual features. SPAN-Net makes this guidance explicit through spatial prior generation, evolution, and injection.
-
-</details>
 
 ## Results
 
